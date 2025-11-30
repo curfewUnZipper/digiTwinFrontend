@@ -1,0 +1,57 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pkl
+*.db
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# ---- Environment / Secrets ----
+.env
+.env.*       # e.g., .env.local, .env.prod
+secrets.toml
+.streamlit/secrets.toml
+
+# ---- Streamlit ----
+.streamlit/logs/
+.streamlit/credentials.toml
+
+# ---- Flask ----
+instance/
+*.sqlite3
+*.sqlite
+*.db
+
+# ---- Build / Dist ----
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# ---- Cache ----
+.cache/
+.ipynb_checkpoints/
+__pycache__/
+
+# ---- OS / Editor Stuff ----
+.DS_Store
+Thumbs.db
+
+# ---- Testing ----
+.coverage
+htmlcov/
+pytest_cache/
+
+# ---- Logs ----
+*.log
+
+# ---- Node / Frontend (if present) ----
+node_modules/
+package-lock.json
