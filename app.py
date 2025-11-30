@@ -1,6 +1,6 @@
 import streamlit as st
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 import requests
 import json
 import pandas as pd
